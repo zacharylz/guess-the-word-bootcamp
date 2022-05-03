@@ -1,6 +1,6 @@
-# Rocket Academy Coding Bootcamp: Create React App Template
+# Rocket Academy Coding Bootcamp: Guess The Word
 
-TODO: Add exercise name to README title and link to exercise page
+TODO(ka): Link to exercise page
 
 ## Available Scripts
 
