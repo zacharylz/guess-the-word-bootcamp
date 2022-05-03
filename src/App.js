@@ -14,12 +14,9 @@ class App extends React.Component {
       // Insert num guesses left state here
       // Insert form input state here
     };
-    // This binding is necessary to make `this` work in the callback
-    this.generateWordDisplay = this.generateWordDisplay.bind(this);
-    // Insert binding of handleChange and handleSubmit here
   }
 
-  generateWordDisplay() {
+  generateWordDisplay = () => {
     const wordDisplay = [];
     // for...of is a string and array iterator that does not use index
     for (let letter of this.state.currWord) {
@@ -30,7 +27,7 @@ class App extends React.Component {
       }
     }
     return wordDisplay.toString();
-  }
+  };
 
   // Insert form callback functions handleChange and handleSubmit here
 
