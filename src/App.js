@@ -55,7 +55,7 @@ import FormElem from "./components/FormElem.js";
 
 // export default App;
 
-let guessNum = 20;
+let guessNum = 10;
 
 function App() {
   // const [currWord, setCurrWord] = useState(getRandomWord());
